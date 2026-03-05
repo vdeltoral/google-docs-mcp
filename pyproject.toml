@@ -1,0 +1,18 @@
+[project]
+name = "google-docs-mcp"
+version = "0.1.0"
+description = "MCP server for Google Docs CRUD operations"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "google-api-python-client>=2.0.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+google-docs-mcp = "google_docs_mcp.server:main"
