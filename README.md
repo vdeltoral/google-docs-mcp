@@ -43,7 +43,7 @@ export GOOGLE_DOCS_MCP_CREDENTIALS=/path/to/your/credentials.json
 ### 3. Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/google-docs-mcp.git
+git clone https://github.com/vdeltoral/google-docs-mcp.git
 cd google-docs-mcp
 python3 -m venv .venv
 source .venv/bin/activate
